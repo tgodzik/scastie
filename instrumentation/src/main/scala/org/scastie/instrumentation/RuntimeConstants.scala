@@ -4,7 +4,7 @@ import org.scastie.runtime.api._
 
 object RuntimeConstants {
   val instrumentedObject    = Instrumentation.instrumentedObject
-  val instrumentationMethod = "instrumentations$"
+  val instrumentedValue     = "`$t`"
 
   val emptyMapT         = "_root_.scala.collection.mutable.Map.empty"
   val jsExportT         = "_root_.scala.scalajs.js.annotation.JSExport"
